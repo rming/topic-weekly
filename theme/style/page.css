@@ -1,0 +1,398 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	text-decoration:none;
+	}
+
+body
+{	
+	margin:0;
+	padding:0;
+	background:#f2f2f2 url(../images/tw_body_01.jpg) 0 0 repeat-x;
+}
+.all
+{
+	width:980px;
+	margin:0 auto;
+}
+.top
+{	
+	width:980px;
+	height:417px;
+	float:left;
+}
+.top .top_up
+{
+	width:980px;
+	height:59px;
+	float:left;
+}
+.top .top_up .logo
+{
+	width:209px;
+	height:59px;
+	background-image:url(../images/logo_02.gif);
+	float:left;
+	position:relative;
+	left:26px;
+}
+.logo a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.top .top_up .title
+{
+	width:370px;
+	_width:410px;
+	height:59px;
+	float:right;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	color:#727272;
+}
+.top .top_up .title	ul
+{
+	list-style:none;
+	padding-left:32px;
+	margin-top:28px;
+}	
+.top .top_up .title	ul	li
+{
+	float:left;
+	font-size:16px;
+	margin-right:20px;
+	overflow:hidden;
+}
+.top .top_up .title	ul	li a:link
+{
+	text-decoration:none;
+	color:#727272;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+}
+.top .top_up .title	ul	li a:visited
+{
+	text-decoration:none;
+	color:#727272;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+}
+.top .top_up .title ul li a:hover{
+	color:#292929;
+}
+.top .head
+{
+	width:980px;
+	height:358px;
+	float:left;
+	background-image:url(../images/head_03.jpg);
+	background-repeat:no-repeat;
+	position: relative;
+}
+.top .head .syn
+{
+	width:573px;
+	height:285px;
+	position: relative;
+	top:50px;
+	left:35px;
+}
+.top .head .syn .up
+{
+	width:573px;
+	height:55px;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	
+}
+.top .head .syn .up .name
+{
+	width:545px;
+	height:23px;
+	float:right;
+	font-size:16px;
+	color:#d9f3fc;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+}
+.name span{
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	color:#FFF;
+	}
+.top .head .syn .up .title,.top .head .syn .up .title a
+{
+	width:545px;
+	height:32px;
+	float:right;
+	font-size:28px;
+	color:#FFF;
+	text-decoration:none;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+}
+.bot p a:hover,.mid  p a:hover{
+	color:#fff;
+}
+.mid  p,.mid  p a{
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:16px;
+	color:#dfffff;
+	text-indent:2em;
+	line-height:28px;
+	margin:0px;
+	text-decoration:none;
+}
+.top .head .syn .mid 
+{
+	width:573px;
+	height:93px;
+	position:relative;
+	left:0;
+	top:9px;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:16px;
+	color:#dfffff;
+	text-indent:2em;
+	line-height:28px;
+}
+.bot p,.bot p a{
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:16px;
+	color:#dfffff;
+	text-indent:2em;
+	line-height:28px;
+	margin:0px;
+	text-decoration:none;
+}
+.top .head .syn .bot
+{
+	width:573px;
+	height:110px;
+	position:relative;
+	top:25px;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:16px;
+	color:#dfffff;
+	text-indent:2em;
+	line-height:28px;
+	margin:0px;
+	
+}
+.top .head .img
+{
+	width:318px;
+	height:282px;
+	position:absolute;
+	top:20px;
+	left:633px;
+}
+.top .head .img .image
+{
+	width:300px;
+	height:240px;
+	margin:7px auto;
+}
+.top .head .img .title,.top .head .img .title a
+{
+	width:318px;
+	height:28px;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:14px;
+	text-decoration:none;
+	color:#5b5b5b;
+	line-height:28px;
+	text-align:center;
+}
+.content_con
+{
+	width:945px;
+	background-color:#f9f9f9;
+	border:1px solid #d2d2d2;
+	float:left;
+}
+.content_con .top
+{
+	width:945px;
+	height:64px;
+	border-bottom:1px solid #d2d2d2;
+	float:left;
+	margin-top:0px;
+}
+.content_con .top .ls
+{
+	width:125px;
+	height:56px;
+	background-image:url(../images/page_ls.gif);
+	float:left;
+	position:relative;
+	top:12px;
+	left:-14px;
+}
+.content_con .top .ls .word
+{
+	width:82px;
+	height:20px;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:20px;
+	color:#FFF;
+	line-height:20px;
+	margin-top:15px;
+	margin-left:37px;
+}
+.content_con .top .title
+{
+	width:780px;
+	height:44px;
+	float:left;
+	margin-top:12px;
+	position:relative;
+}
+.content_con .top .title .left
+{
+	width:15px;
+	height:38px;
+	float:left;
+	margin-top:6px;
+	background-color:#646464;
+}
+.content_con .top .title .title
+{
+	width:760px;
+	height:38px;
+	float: right;
+	position:absolute;
+	top:-6px;
+	left:21px;
+}
+.content_con .top .title .title .date
+{
+	width:760px;
+	height:16px;
+	float:left;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:14px;
+	color:#616060;
+	line-height:16px;
+}
+.content_con .top .title .title .word
+{
+	width:760px;
+	height:22px;
+	float:left;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:20px;
+	color:#525252;
+	line-height:22px;
+}
+.content_con .top .title .title .word a{
+	float:left;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:20px;
+	color:#525252;
+	line-height:22px;
+}
+.content_con .mid
+{
+	width:100%;
+	padding:5px;
+	float:left;
+}
+.content_con .mid .content
+{
+	width:900px;
+	height:883px;
+	margin-top:20px;
+	margin-left:20px;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:14px;
+	color:#525252;
+	line-height:22px;
+	float:left;
+}
+.content_con .mid .content .word_1
+{
+	width:900px;
+	height:100px;
+}
+.content_con .mid .content .img
+{
+	width:500px;
+	height:395px;
+	margin:0 auto;
+}
+.content_con .mid .content .word_2
+{
+	width:900px;
+}
+.com
+{
+	width:945px;
+	background-color:#f9f9f9;
+	border:1px solid #d2d2d2;
+	margin-top:11px;
+	float:left;
+}
+.com .top
+{
+	width:945px;
+	height:64px;
+	float:left;
+	border-bottom:1px solid #d2d2d2;;
+	position: relative;
+}
+.com .top .ls
+{
+	width:125px;
+	height:56px;
+	background-image:url(../images/ls_03.gif);
+	background-repeat:no-repeat;
+	float:left;
+	position:relative;
+	top:12px;
+	left:-14px;
+}
+.com .top .ls .word
+{
+	width:92px;
+	height:44px;
+	float:right;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:20px;
+	color:#FFF;
+	text-align:center;
+	line-height:44px;
+	overflow:hidden;
+}
+.com .top .title
+{
+	width:300px;
+	height:48px;
+	float:left;
+	font-family: Microsoft Yahei,simhei,arial,sanserif!important;
+	font-size:20px;
+	color:#525252;
+	line-height:48px;
+	position:absolute;
+	left:126px;
+	bottom:0px;
+}
+.com .bot
+{
+	width:945px;
+	float:left;
+}
+.bot
+{
+	width:980px;
+	float:left;
+	margin-top:10px;
+}
+.news_content{
+	width:935px;
+	height:auto;
+	word-wrap: break-word;
+	word-break: normal;
+	color:#5D5D5D;
+	
+}
+.news_content p{
+	color:#4c4c4c;
+	font-size:15px;
+	text-indent:0;
+	font-family: "宋体",Arial!important;
+}
