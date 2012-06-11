@@ -2,6 +2,8 @@
 =============
 
 一个校园新闻热点话题的管理系统/School topics manage system(STMS )
+半成品：其中flash投票部分未完成。
+管理员:admin/admin
 <br/>
 <br/>
 ——————使用前替换掉评论啦的评论代码——————<br/>
