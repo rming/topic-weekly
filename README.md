@@ -1,7 +1,7 @@
 每周话题/Topic weekly
 =============
 
-一个校园新闻热点话题的管理系统/School topics manage system(STMS )<br/><br/>
+新闻热点话题的CMS<br/><br/>
 半成品：其中flash投票部分未完成。<br/>
 管理员:admin/admin<br/>
 <br/>
